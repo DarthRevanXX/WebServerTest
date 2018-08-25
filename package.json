@@ -1,15 +1,16 @@
 {
-  "name": "nodepractice",
+  "name": "Web-App",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Sergey Zadorozhnyi",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.10",
-    "yargs": "^12.0.1"
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
   }
 }
